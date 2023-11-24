@@ -12,6 +12,7 @@ socket.on("chat message", (msg) => {
 });
 
 function sendMessage(id) {
+  //Emit message after every 2 seconds
   setInterval(() => {
     const message = `Hello from client: ${id}`;
     socket.emit("chat message", message);
