@@ -45,7 +45,7 @@ This is a real-time chat system using Socket.IO with Node.js.
    - Run the following:
 
      ```bash
-     npm start
+     node client.js
      ```
 
 ### Socket.IO Events
