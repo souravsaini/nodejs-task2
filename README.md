@@ -35,7 +35,7 @@ This is a real-time chat system using Socket.IO with Node.js.
 4. Start the server:
 
    ```bash
-   node app.js
+   node server.js
    ```
 
 5. Access the Frontend:
